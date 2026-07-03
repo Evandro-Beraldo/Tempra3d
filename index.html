@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tempra 3D</title>
+</head>
+
+<body>
+
+<!--Cabeçalho Principal-->
+<header>
+    <div class="cabecalho__principal">      
+        <img class="logotipo" src="Imagens/Logo Principal.png" alt="Logotipo Principal">      
+    <div class="redes__sociais">
+        <a href="https://www.instagram.com/tempra3d?igsh=YTJsZ3RIbGNsZHVh&utm_source=qr" target="_blank">
+        <img src="Imagens/Instagran.png" alt="Instagram" class="icone">
+        </a>
+        <a href="https://www.shopee.com.br/tempraa3d" target="_blank">
+        <img src="Imagens/Shopee.png" alt="Shopee" class="icone">
+        </a>   
+    </div>
+
+<nav>
+    <ul>
+        <li><a href="">🏠 HOME</a></li>
+        <li><a href="#nossos-servicos">🚀 NOSSOS SERVIÇOS</a></li>
+        <li><a href="#contato">📞 CONTATO</a></li>
+    </ul>
+</nav>          
+        <button class="btn" type="button"
+            onclick="document.getElementById('orcamento').scrollIntoView({ behavior: 'smooth' });">
+            ORÇAMENTO
+        </button> 
+    </div>
+</header>
+
+<!--Sobre Nós-->
+<section>
+    <div class="sobre__nos">
+        <h1>🚀Sobre Nós</h1>
+            <p class="descricao">
+                A TEMPRA3D transforma ideias em produtos únicos através da impressão 3D. Criamos brindes 
+                personalizados, chaveiros, peças decorativas, itens funcionais, protótipos e projetos exclusivos 
+                desenvolvidos sob medida para atender às necessidades de cada cliente.
+                Utilizamos tecnologia de ponta e materiais de alta qualidade para garantir acabamento impecável, 
+                resistência e riqueza de detalhes em cada peça produzida. Nosso compromisso é unir criatividade, 
+                inovação e precisão, oferecendo soluções personalizadas para empresas, empreendedores e clientes 
+                que desejam transformar conceitos em realidade.
+                Nossa missão é oferecer soluções inovadoras que transformam ideias em experiências concretas, 
+                proporcionando qualidade, confiança e satisfação em cada projeto realizado. 
+            </p>  
+    </div>
+
+    <div class="slider">
+        <img src="Imagens/00001.jpg" class="slid ativo" alt="00001">
+        <img src="Imagens/00002.jpg" class="slid" alt="00002">
+        <img src="Imagens/00003.jpg" class="slid" alt="00003">
+        <img src="Imagens/00004.jpg" class="slid" alt="00004">
+        <img src="Imagens/00005.jpg" class="slid" alt="00005">
+        <img src="Imagens/00006.png" class="slid" alt="00006">
+        <img src="Imagens/00007.jpg" class="slid" alt="00007">
+        <img src="Imagens/00008.png" class="slid" alt="00008">
+        <img src="Imagens/00009.png" class="slid" alt="00009">
+        <img src="Imagens/00010.png" class="slid" alt="00010">
+        <img src="Imagens/00011.png" class="slid" alt="00011">
+        <img src="Imagens/00012.png" class="slid" alt="00012">       
+    </div>
+    </div>
+</section>
+
+<!--Cards-->
+<section id="nossos-servicos" class="ns">
+    <div class="night">
+    <div class="nigth__setap">       
+        <h4>🔑 Chaveiros Personalizados!</h4>
+            <p class="paragrafo">Produzimos chaveiros exclusivos para empresas, eventos, aniversários, 
+                lembranças e presentes.
+                                Personalize com nomes, logos, personagens e muito mais. 
+                                Qualidade, criatividade e acabamento impecável em cada peça!
+            </p>
+    </div>
+    <div class="nigth__setap">
+        <h4>🏠 Decoração Em Impressão!</h4>
+            <p class="paragrafo">Transforme seus ambientes com peças decorativas únicas e personalizadas.
+                                 Produzimos vasos, esculturas, enfeites, suportes, quadros decorativos e muito 
+                                 mais, tudo com a qualidade e a inovação da impressão 3D.
+            </p>
+    </div>
+    <div class="nigth__setap">
+        <h4>📱 Suportes Personalizados!</h4>
+            <p class="paragrafo">Crie mais organização e praticidade com suportes feitos sob medida. 
+                                 Produzimos modelos para celulares, controles, notebooks, ferramentas e muito 
+                                 mais, com qualidade, resistência e personalização exclusiva.
+            </p>
+    </div>
+    <div class="nigth__setap">
+        <h4>✨ Personalização Sem Limites!</h4>
+            <p class="paragrafo">Produzimos peças exclusivas em impressão 3D para presentes, brindes, decoração,
+                                empresas e projetos especiais. 
+                                Personalize com nomes, logotipos, frases, personagens e crie algo verdadeiramente
+                                único.
+            </p>
+    </div>
+    <div class="nigth__setap">
+        <h4>🚀 Soluções Em Impressão 3D Para Todos os Projetos!</h4>
+            <p class="paragrafo">Produzimos peças decorativas, funcionais, organizadores, brindes, acessórios, 
+                presentes personalizados e muito mais. 
+                Transformamos suas ideias em produtos únicos com qualidade e inovação.
+            </p>
+    </div>
+    </div>
+</section>        
+
+<!--Orçamento-->
+
+<form id="form-orcamento" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="40b7faad-b632-4b90-969b-66aed7bd98b2">
+    <input type="hidden" name="subject" value="📋 Novo Pedido de Orçamento - Tempra 3D">
+    <input type="hidden" name="from_name" value="Site Tempra 3D">
+    <input type="hidden" name="redirect" value="https://atempra3d@gmail.com">
+    <input type="checkbox" name="botcheck" style="display:none;">
+
+    <div id="orcamento" class="titulo__orcamento">
+        <h1>📋 Solicitar Orçamento</h1>
+            <p>Preencha o formulário abaixo e receba uma proposta personalizada para o seu projeto.</p>
+    </div>
+    <div class="orcamento">
+    <div class="coluna-esquerda">
+    <div class="formulario">
+        <label>Nome Completo</label>
+            <input type="text" name="Nome" placeholder="Digite seu nome" required>
+    </div>
+
+    <div class="formulario">
+        <label>Empresa</label>
+            <input type="text" name="Empresa" placeholder="Nome da empresa">
+    </div>
+
+    <div class="formulario">
+        <label>E-mail</label>
+            <input type="email" name="Email" placeholder="seuemail@email.com" required>
+    </div>
+
+    <div class="formulario">
+        <label>WhatsApp</label>
+            <input type="tel" name="WhatsApp" placeholder="(00) 00000-0000" required>
+    </div>
+
+        <button type="submit" class="bt" id="btnEnviar">
+            Enviar Orçamento
+        </button>
+            <p id="mensagem"></p>
+    </div>
+
+    <div class="coluna-direita">
+    <div class="selecao">
+        <label>Prazo Desejado</label>
+            <select class="so" name="Prazo">
+                <option value="" disabled selected hidden>Selecione</option>
+                <option>Urgente</option>
+                <option>15 dias</option>
+                <option>30 dias</option>
+                <option>60 dias</option>
+                <option>Sem prazo definido</option>
+            </select>
+    </div>
+
+    <div class="descricao__projeto">
+        <label>Descreva Seu Projeto Aqui</label>
+            <textarea
+                rows="10"
+                name="Descrição"
+                placeholder="Conte-nos mais detalhes sobre o que você precisa...">
+            </textarea>
+    </div>
+    </div>
+    </div>
+</form>
+
+<!--Rodape-->
+<div class="rodape">
+  <footer id="contato">
+    <div class="container grid">
+    <div>
+    <div class="brand"><b>TEMPRA3D</b></div>   
+      <p class="rp">CNPJ: 64.884.955/0001-31</p>
+      <p class="container copy">© 2026 Tempra3D. Todos os direitos reservados.</p>
+    </div>
+    <div>
+      <p class="contato"><b>Contato:</b></p>
+      <p class="dados">📞 +55 19 97148-3451</p>     
+      <p class="dados">🖂 atempra3d@gmail.com</p>  
+    </div>  
+    </div>
+    </footer>
+
+    <a class="wa" href="https://api.whatsapp.com/send?phone=5519971483451" target="_blank">
+    <img src="Imagens/Whatsapp.png" alt="WhatsApp">
+    </a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
